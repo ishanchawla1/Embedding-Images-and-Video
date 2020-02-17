@@ -7,8 +7,20 @@
 .left{
     left:16px;
 }
-
+.videoDescription{
+    display: flex;
+    flex-wrap: wrap;
+}
+.channelContainer{
+    position: relative;
+    font-size: large;
+    height: 60;
+    width: 120;
+}
 #video{
     padding-left: 40px;
     padding-top: 30px;
+}
+#videoTitle{
+    padding-left: 40px;
 }
