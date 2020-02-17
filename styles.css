@@ -5,6 +5,10 @@
     align-content: center;
 }
 .left{
-    position: absolute;
     left:16px;
+}
+
+#video{
+    padding-left: 40px;
+    padding-top: 30px;
 }
