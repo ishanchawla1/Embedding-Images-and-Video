@@ -1,0 +1,10 @@
+.container{
+    width: 100%;
+    margin: 0px;
+    padding: 20px;
+    align-content: center;
+}
+.left{
+    position: absolute;
+    left:16px;
+}
