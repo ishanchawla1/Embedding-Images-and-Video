@@ -17,6 +17,27 @@
     height: 60;
     width: 200;
 }
+.informationContainer{
+    width: 940;
+}
+.viewsCounter{
+    padding-top: 20;
+    font-weight: 200;
+    font-size: xx-large;
+}
+.subscribeButton{
+    display: flex;
+    flex-wrap: wrap;
+}
+.iconStrip{
+    width: 940;
+    display: flex;
+    flex-wrap: wrap;
+    height: 20;
+}
+.rightButtons{
+    margin-left:auto; margin-right:0;
+}
 #video{
     padding-left: 40px;
     padding-top: 30px;
