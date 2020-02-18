@@ -45,8 +45,6 @@
 }
 .description{
     width: 940;
-    display: flex;
-    flex-wrap: wrap;
 }
 .loadingLabel{
     padding-top: 40;
@@ -80,4 +78,15 @@
 #loading-gif{
     width: 100px;
     height: 100px;
+}
+.videos{
+    height: 120px;
+    width: 200px;
+}
+article{
+    display: flex;
+    flex-wrap: wrap;
+}
+.new-videos-title{
+    font-weight: bold;
 }
