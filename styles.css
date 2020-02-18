@@ -51,3 +51,14 @@
     color: grey;
 
 }
+
+#submit{
+    width: 900px;
+}
+#date{
+    font-weight: bold;
+}
+#loading-gif{
+    width: 100px;
+    height: 100px;
+}
