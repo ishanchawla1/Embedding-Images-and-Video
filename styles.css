@@ -67,6 +67,11 @@
 .navBar{
     width: 100%;
 }
+.filters{
+    height:30;
+    display: flex;
+    flex-wrap: wrap;
+}
 #video{
     padding-left: 40px;
     padding-top: 30px;
