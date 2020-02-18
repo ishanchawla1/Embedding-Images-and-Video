@@ -4,6 +4,11 @@
     padding: 20px;
     align-content: center;
 }
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1080;
+}
 .left{
     left:16px;
 }
@@ -37,6 +42,20 @@
 }
 .rightButtons{
     margin-left:auto; margin-right:0;
+}
+.description{
+    width: 940;
+    display: flex;
+    flex-wrap: wrap;
+}
+.loadingLabel{
+    padding-top: 40;
+}
+.loading{
+    width: 940;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 #video{
     padding-left: 40px;
