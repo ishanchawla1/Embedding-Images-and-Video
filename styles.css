@@ -37,7 +37,6 @@
 }
 .sideSection{
     width: 350;
-    align: right;
     padding-left: 50;
 }
 .seperator{
@@ -126,6 +125,8 @@ article{
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 0;
+    width: 140;
+    font-size: 20px;
 }
 .greyText{
     color: grey;
@@ -139,7 +140,12 @@ article{
     width: 100%;
 }
 .recomended-videos-views{
-    font-size: 12px;
+    font-size: 16px;
     color: grey;
+}
+#upNext{
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 
