@@ -83,6 +83,16 @@
     width: 100%;
     margin-left: 10px;
 }
+.upNext{
+    display: flex;
+    flex-wrap: wrap;
+}
+.left{
+    justify-content: left;
+}
+.right{
+    justify-content: right;
+}
 .filters{
     height:30;
     display: flex;
