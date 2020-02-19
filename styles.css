@@ -12,6 +12,17 @@
 .left{
     left:10px;
 }
+.stats{
+    padding-top: 6;
+    
+}
+.interactions{
+    align-self: right;
+}
+.statsAndInteractions{
+    display: flex;
+    flex-wrap: wrap;
+}
 .videoDescription{
     display: flex;
     flex-wrap: wrap;
@@ -81,7 +92,6 @@
     padding-top: 30px;
 }
 #videoTitle{
-    padding-left: 40px;
 }
 #subscribers{
     border: 1px solid;
