@@ -31,13 +31,13 @@
 .channelContainer{
     position: static;
     font-size: large;
-    height: 160px;
+    height: 180px;
     width: 700px;
     padding-left: 20px;
 }
 .sideSection{
     width: 350;
-    padding-top: 30;
+    align: right;
     padding-left: 50;
 }
 .seperator{
@@ -124,6 +124,16 @@ article{
 }
 .new-videos-title{
     font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.greyText{
+    color: grey;
+    margin: 2;
+}
+.recomendationText{
+    padding-left: 10;
+    font-size: medium;
 }
 .show-more{
     width: 100%;
