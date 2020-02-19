@@ -31,8 +31,9 @@
 .channelContainer{
     position: static;
     font-size: large;
-    height: 60;
-    width: 200;
+    height: 160px;
+    width: 700px;
+    padding-left: 20px;
 }
 .sideSection{
     width: 350;
@@ -131,3 +132,4 @@ article{
     font-size: 12px;
     color: grey;
 }
+
