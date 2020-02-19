@@ -4,31 +4,47 @@
     </head>
     <body>
         <div id="header" class="container">
-            <nav class="navbar">
-            <table width="100%">
-                <tbody>
-                    <th width="5%" class="left"><img src="images/menu.png" width="20" length="20"></th>
-                    <th width="5%"><img src="images/YouTuna.png" alt="Youtube" width="80" length="100"></th>
-                    <th width="70%" class="search">
-                        <input type="text" height="20"  style="font-size:13pt;" size="100%">
-                        <button width="20%" height="18" > <img src="images/search.png" width="18" height="18"></button>
-                    </th>
-                    <th width="5%"><img src="images/upload.png" width="20" length="20"></th>
-                    <th width ="5%"><img src="images/apps-grid.png" width="20" length="20"> </th>
-                    <th width="5%"><img src="images/notification.jpeg" width="20" length="20"></th>
-                    <th width ="5%"><img src="images/user.png" width="30" length="30"> </th>
-                </tbody>
-            </table>
+            <nav class="navbar" width="100%">
+                <table width="100%" style="padding-bottom: 40px;">
+                    <tbody>
+                        <th width="5%" class="left">
+                            <img src="images/menu.png" width="20" length="20">
+                        </th>
+                        <th width="5%">
+                            <img src="images/YouTuna.png" alt="Youtube" width="80" length="100">
+                        </th>
+                        <th width="70%" class="search">
+                            <input type="text" height="20"  style="font-size:13pt;" size="100%">
+                            <button width="20%" height="18" > <img src="images/search.png" width="18" height="18"></button>
+                        </th>
+                        <th width="5%">
+                            <img src="images/upload.png" width="20" length="20">
+                        </th>
+                        <th width ="5%">
+                            <img src="images/apps-grid.png" width="20" length="20"> 
+                        </th>
+                        <th width="5%">
+                            <img src="images/notification.jpeg" width="20" length="20">
+                        </th>
+                        <th width ="5%">
+                            <img src="images/user.png" width="30" length="30"> 
+                        </th>
+                    </tbody>
+                </table>
             </nav>
             <section>
                 <div class="seperator">
-                    <div>
-                        <video id="video" width="900" height="500" controls>
-
-                        </video>
+                    <div id="videoSection">
+                        <iframe width="900" height="500" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                            
+                        </iframe>
                         <div class="informationContainer">
                             <br/>
-                            <H1><label id="videoTitle" >Another video</label></H1>
+                               <p style="padding-left: 10px; color: blue;">#Muppets #Movie</p>
+                            <br/>
+                            <H1>
+                                <label id="videoTitle" >Another video</label>
+                            </H1>
                             <div class="videoDescription">
                                 <div class="channelLogo">
                                     <img src="images/ChannelLogo.jpeg" width="60" length="60" id="videoTitle">
