@@ -22,6 +22,7 @@
 .statsAndInteractions{
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 20px;
 }
 .videoDescription{
     display: flex;
