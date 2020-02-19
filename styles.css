@@ -86,6 +86,7 @@
 .upNext{
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 20px;
 }
 .left{
     justify-content: left;
