@@ -1,7 +1,7 @@
 .container{
     width: 100%;
-    margin: 10px;
-    padding: 20px;
+    margin: 0px;
+    padding: 0px;
     align-content: center;
 }
 .main{
@@ -37,7 +37,7 @@
 }
 .sideSection{
     width: 350;
-    padding-left: 50;
+    margin-left: 50px;
 }
 .seperator{
     display: flex;
@@ -78,10 +78,12 @@
 }
 .search{
     font-size: 14pt;
+    flex-wrap: nowrap;
 }
 .navbar{
     width: 100%;
     margin-left: 10px;
+    flex-wrap: nowrap;
 }
 .upNext{
     display: flex;
@@ -163,6 +165,7 @@ article{
 .youtubeIcons{
     height: 20px;
     width: 20px;
+    margin-right: 20px;
 }
 
 .searchButton{
@@ -175,3 +178,9 @@ article{
     width: 150px;
 }
 
+#videoSection{
+    padding-left: 50px;
+}
+#searchBar{
+    width: 500px;
+}
