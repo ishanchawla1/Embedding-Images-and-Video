@@ -4,11 +4,6 @@
     padding: 0px;
     align-content: center;
 }
-.main{
-    display: flex;
-    flex-wrap: wrap;
-    width: 1080;
-}
 .left{
     left:10px;
 }
@@ -41,7 +36,7 @@
 }
 .seperator{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 .informationContainer{
     width: 850;
@@ -55,26 +50,11 @@
     display: flex;
     flex-wrap: wrap;
 }
-.iconStrip{
-    width: 940;
-    display: flex;
-    flex-wrap: wrap;
-    height: 20;
-}
 .rightButtons{
     margin-left:auto; margin-right:0;
 }
 .description{
     width: 940;
-}
-.loadingLabel{
-    padding-top: 40;
-}
-.loading{
-    width: 940;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 .search{
     font-size: 14pt;
@@ -169,7 +149,7 @@ article{
 }
 
 .searchButton{
-    height: 25px;
+    height: 29;
     width: 35px;
 }
 
@@ -182,5 +162,5 @@ article{
     padding-left: 50px;
 }
 #searchBar{
-    width: 500px;
+    width: 650px;
 }
