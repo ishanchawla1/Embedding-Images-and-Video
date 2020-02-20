@@ -103,7 +103,7 @@
     padding-left: 40px;
     padding-top: 30px;
 }
-#videoTitle{
+.videoTitle{
     padding-top: 6;
 }
 #subscribers{
@@ -158,5 +158,20 @@ article{
     font-size: 24px;
     margin-top: 0px;
     margin-bottom: 10px;
+}
+
+.youtubeIcons{
+    height: 20px;
+    width: 20px;
+}
+
+.searchButton{
+    height: 25px;
+    width: 35px;
+}
+
+.youtubeLogo{
+    height: 100px;
+    width: 150px;
 }
 
