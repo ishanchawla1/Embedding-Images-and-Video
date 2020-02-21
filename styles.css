@@ -26,7 +26,7 @@
 .channelContainer{
     position: static;
     font-size: large;
-    height: 180px;
+    height: 240px;
     width: 700px;
     padding-left: 20px;
 }
@@ -163,4 +163,12 @@ article{
 }
 #searchBar{
     width: 650px;
+}
+
+#comments{
+    clear: both;
+}
+
+#comments span{
+    padding-right: 20px;
 }
