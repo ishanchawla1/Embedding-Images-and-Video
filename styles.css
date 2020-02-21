@@ -203,3 +203,7 @@ ul.quickLinks li {
     display: inline;
     margin-right: 10px;
 }
+.shareButton{
+    border: none;
+    background: none;
+}
