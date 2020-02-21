@@ -172,6 +172,8 @@ article{
     width: 500px;
 }
 .userComment{
+    flex-wrap: nowrap;
+    display: flex;
     margin-top: 10px;
 }
 #comments{
