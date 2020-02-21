@@ -58,6 +58,7 @@
     width: 940;
 }
 .search{
+    width: max-content;
     font-size: 14pt;
     flex-wrap: nowrap;
 }
@@ -109,6 +110,7 @@
 .videos{
     height: 120px;
     width: 200px;
+    margin-right: 10px;
 }
 article{
     display: flex;
@@ -167,7 +169,7 @@ article{
     width:900px;
 }
 #searchBar{
-    width: 650px;
+    width: 500px;
 }
 .userComment{
     margin-top: 10px;
