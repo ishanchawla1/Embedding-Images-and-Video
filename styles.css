@@ -1,0 +1,209 @@
+.container{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    align-content: center;
+}
+.left{
+    left:10px;
+}
+.stats{
+    padding-top: 6;
+    
+}
+.interactions{
+    align-self: right;
+}
+.statsAndInteractions{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+.videoDescription{
+    display: flex;
+    flex-wrap: wrap;
+}
+.channelContainer{
+    position: static;
+    font-size: large;
+    height: 240px;
+    width: 700px;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+.sideSection{
+    width: 350;
+    margin-left: 50px;
+}
+.seperator{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.informationContainer{
+    width: 850;
+}
+.viewsCounter{
+    padding-top: 20;
+    font-weight: 200;
+    font-size: xx-large;
+}
+#subscribeButton{
+   color: white;
+   background-color: red;
+   width: 120px;
+   height: 40px;
+   font-size: 18px;
+}
+.rightButtons{
+    margin-left:auto; margin-right:0;
+}
+.description{
+    width: 940;
+}
+.search{
+    width: max-content;
+    font-size: 14pt;
+    flex-wrap: nowrap;
+}
+.navbar{
+    width: 100%;
+    margin-left: 10px;
+    flex-wrap: nowrap;
+}
+.upNext{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+.left{
+    justify-content: left;
+}
+.right{
+    justify-content: right;
+}
+.filters{
+    height:30;
+    display: flex;
+    flex-wrap: wrap;
+}
+#video{
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.videoTitle{
+    padding-top: 6;
+}
+#subscribers{
+    border: 1px solid;
+    padding: 0px 0;
+    color: grey;
+
+}
+
+#submit{
+    width: 900px;
+}
+#date{
+    font-weight: bold;
+}
+#loading-gif{
+    width: 100px;
+    height: 100px;
+}
+.videos{
+    height: 120px;
+    width: 200px;
+    margin-right: 10px;
+}
+article{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+.new-videos-title{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 140;
+    font-size: 20px;
+}
+.greyText{
+    color: grey;
+    margin: 2;
+}
+.recomendationText{
+    padding-left: 10;
+    font-size: medium;
+}
+.show-more{
+    width: 100%;
+}
+.recomended-videos-views{
+    font-size: 16px;
+    color: grey;
+}
+#upNext{
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.youtubeIcons{
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+}
+
+.searchButton{
+    height: 29;
+    width: 35px;
+}
+
+.youtubeLogo{
+    height: 100px;
+    width: 150px;
+}
+.userIcons{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+#videoSection{
+    padding-left: 50px;
+    width:900px;
+}
+#searchBar{
+    width: 500px;
+}
+.userComment{
+    flex-wrap: nowrap;
+    display: flex;
+    margin-top: 10px;
+}
+#comments{
+    clear: both;
+}
+
+#comments span{
+    padding-right: 20px;
+}
+#commentStats{
+    margin-bottom: 10px;
+}
+#commentSection{
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    clear: left;
+}
+
+.commentText{
+    margin: 0px;
+}
+ul.quickLinks li {
+    display: inline;
+    margin-right: 10px;
+}
+.shareButton{
+    border: none;
+    background: none;
+}

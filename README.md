@@ -1,31 +1,42 @@
-# Project Name
+# Youtube clone
 
-> One paragraph statement about the project.
+> It is a clone of youtube.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML
+- CSS
 
 ## Live Demo
 
 [Live Demo Link](https://livedemo.com)
 
 
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
+
+Navigation bar
+-It has an embedded image that represents a logo.
+-The logo is aligned to the leftmost part of the navbar.
+-It has an input tag that represents a search bar.
+-The search bar is aligned to the middle of the navbar.
+-It has a button tag that represents the search button.
+-The search button is at the end (rightmost part) of the search bar.
+-It has at least three embedded images on the rightmost part of the navbar that represent icons and/or an avatar.
+Video
+-It is displayed.
+-It shows the video title.
+-It shows the number of views.
+-It has like and dislike icons.
+-It has a share button.
+-It shows the avatar of the user who uploaded the video.
+-It has a subscribe button.
+Sidebar Recommended videos
+-It shows the recommended video’s thumbnail preview (as image not as an actual video).
+-It shows the title of the video.
+-It shows the number of views.
 
 ### Setup
 
@@ -41,17 +52,17 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 Luis Octavio Ramirez Cruz
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@LOctavio](https://github.com/LOctavio)
+- Twitter: [@Octavio_ram431](https://twitter.com/Octavio_ram431)
+- Linkedin: [linkedin](https://www.linkedin.com/in/luis-octavio-ramirez-cruz-714521178/)
 
-👤 **Author2**
+👤 Ishan chawla 
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@ishanchawla1](https://github.com/gishanchawla1)
+- Twitter: [@Ishanchawla1884](https://twitter.com/Ishanchawla1884)
+- Linkedin: [linkedin](https://www.linkedin.com/in/ishan-chawla-232988b5/)
 
 ## 🤝 Contributing
 

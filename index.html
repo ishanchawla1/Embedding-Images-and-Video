@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Youtube Clone</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="header" class="container">
+            <nav class="navbar" >
+                <table style="padding-bottom: 40px;width:100%;">
+                    <tbody>
+                        <tr>
+                        <th  class="left">
+                            <img class="youtubeIcons" src="images/menu.png" alt="Menu">
+                        </th>
+                        
+                        <th >
+                            <img class="youtubeLogo" src="images/Youtube.png" alt="Youtube">
+                        </th>
+                        <th>
+                            <div class="search" >
+                                <input id="searchBar" type="text" style="font-size:13pt;">
+                                <button class="searchButton"> 
+                                    <img src="images/search.png" class="youtubeIcons" alt="search">
+                                </button>
+                            </div>
+                        </th>
+                        <th >
+                            <img class="youtubeIcons" src="images/upload.png" alt="upload">
+                        </th>
+                        <th >
+                            <img class="youtubeIcons" src="images/apps-grid.png" alt="grid"> 
+                        </th>
+                        <th >
+                            <img class="youtubeIcons" src="images/notification.jpeg" alt="notification">
+                        </th>
+                        <th >
+                            <img class="youtubeIcons" src="images/user.png" alt="user"> 
+                        </th>
+                    </tr>
+                    </tbody>
+                </table>
+            </nav>
+            <section>
+                <div class="seperator" >
+                    <div id="videoSection" >
+                        <iframe width="900" height="450" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                            
+                        </iframe>
+                        <div class="informationContainer">
+                            <br/>
+                               <p style="margin-top:0px; margin-bottom:0px ; color: blue;">#Muppets #Movie</p>
+                            <H1 style="margin-top:0px ;">
+                                <label class="videotitle" >Another Long video name so that it occupies space</label>
+                            </H1>
+                            <div class="statsAndInteractions">
+                                <div class="stats">
+                                    3201293 views . Oct 5 2009
+                                </div>
+                                <hr>
+                                <div class="interactions">
+                                    <img src="images/likeIcon.png" height="20" alt="like"> 350
+                                    <img src="images/dislikeIcon.jpeg" height="20" alt="dislike"> 3
+                                    <img src="images/addIcon.png" alt="add" height="20" > Add to &nbsp; &nbsp; &nbsp;
+                                    <button class="shareButton">
+                                        <img src="images/shareIcon.png" height="20" alt="share"> Share &nbsp; &nbsp; &nbsp;
+                                    </button>
+                                    <img src="images/moreIcon.png" height="20" alt="more"> More &nbsp; &nbsp; &nbsp;
+                                    
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="videoDescription">
+                                <div class="channelLogo">
+                                    <img src="images/channelImage.png" width="60" height="60" class="videotitle" alt="channel_logo">
+                                </div>
+                                <div class="channelContainer" >
+                                    
+                                    <p style="margin: 0px 0px;"><b> The Odin Project</b></p>
+                                    <p style="margin: 0px 0px; color: grey;"> 392K Subscribers</p>
+                                    <p style="margin-top: 40px ">Remastered in hd</p>
+                                    <p style="margin-top: 40px ">This is a text about the video</p>
+                                    <p style="color:grey; font-size: small; ">SHOW MORE</p>
+                                </div>
+                                <div >
+                                    <button id="subscribeButton">SUBSCRIBE</button> 
+                                </div>
+                            
+                                <div id="comments">
+                                    <div id="commentStats">
+                                        <span>20 comments</span>
+                                        <img src="images/sortIcon.png" class="youtubeIcons" alt="sortIcon">
+                                        <span class="greyText">SORT BY</span>
+                                    </div>
+                                    <div id="commentSection">
+                                        <div class="userComment">
+                                        <div>
+                                            <img src="images/UserIcon.jpg" alt="my_User_Icon" class="userIcons">
+                                        </div>
+                                        <div>
+                                            <span>Add a public comment...</span>
+                                            <hr>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="userComment">
+                                            <div>
+                                                <img src="images/UserIcon.jpg" alt="my_User_Icon" class="userIcons">
+                                            </div>
+                                            <div>
+                                                <span>User 1</span>
+                                                <span class="greyText">2 years ago</span>
+                                                <p class="commentText">This is my comment. I realy love this video. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="userComment">
+                                            <div>
+                                                <img src="images/UserIcon2.jpg" alt="my_User_Icon" class="userIcons">
+                                            </div>
+                                            <div>
+                                                <span>User 2</span>
+                                                <span class="greyText">1 years ago</span>
+                                                <p class="commentText">This is my comment. This song is the best song ever.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="userComment">
+                                            <div>
+                                                <img src="images/UserIcon.jpg" alt="my_User_Icon" class="userIcons">
+                                            </div>
+                                            <div>
+                                                <span>User 3</span>
+                                                <span class="greyText">1 years ago</span>
+                                                <p class="commentText">This is my comment. I want to play this song all day</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="userComment">
+                                            <div>
+                                                <img src="images/UserIcon.jpg" alt="my_User_Icon" class="userIcons">
+                                            </div>
+                                            <div>
+                                                <span>User 4</span>
+                                                <span class="greyText">1 years ago</span>
+                                                <p class="commentText">This is my comment. This song is boring, I prefer other kind of music</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="userComment">
+                                            <div>
+                                                <img src="images/UserIcon.jpg" alt="my_User_Icon" class="userIcons">
+                                            </div>
+                                            <div>
+                                                <span>User 5</span>
+                                                <span class="greyText">1 years ago</span>
+                                                <p class="commentText">This is my comment. This song is great</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="userComment">
+                                            <div>
+                                                <img src="images/UserIcon.jpg" alt="my_User_Icon" class="userIcons">
+                                            </div>
+                                            <div>
+                                                <span>User 6</span>
+                                                <span class="greyText">1 years ago</span>
+                                                <p class="commentText">This is my comment. I want to listen more music like that</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="userComment">
+                                            <div>
+                                                <img src="images/UserIcon.jpg" alt="my_User_Icon" class="userIcons">
+                                            </div>
+                                            <div>
+                                                <span>User 7</span>
+                                                <span class="greyText">1 years ago</span>
+                                                <p class="commentText">This is my comment. I had't heard a song like this before. I love it!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div Class="sideSection" >
+                        <div class="upNext">
+                            <div class="left"  style="font-size: 20px;">Up next </div>
+                            <hr>
+                            <div  class="right" >
+                                <label style="font-size: 20px;">AUTOPLAY</label>
+                            </div>
+                            <img src="images/toggleSwitch.png" width="30" height="20" alt="toggle">
+                        </div>
+                        <article>
+                            <img class="videos" src="images/img1.jpeg" alt="Suggested_Video_1">
+                            <div class="recomendationText">
+                            
+                                <h3 class="new-videos-title">First video of recomended videos</h3>
+                                
+                                <p class="greyText">Generic channel</p>
+                                <p class="recomended-videos-views greyText">100 views</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img class="videos" src="images/img2.jpeg" alt="Suggested_Video_2">
+                            <div class="recomendationText">
+                                <h3 class="new-videos-title">Second video of recomended videos</h3>
+                                <p class="greyText">Generic channel</p>
+                                <p class="recomended-videos-views greyText">200 views</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img class="videos" src="images/img3.jpeg" alt="Suggested_Video_3">
+                            <div class="recomendationText">
+                                <h3 class="new-videos-title">Third video of recomended videos</h3>
+                                <p class="greyText">Generic channel</p>
+                                <p class="recomended-videos-views greyText">300 views</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img class="videos" src="images/img4.jpeg" alt="Suggested_Video_4">
+                            <div class="recomendationText">
+                                <h3 class="new-videos-title">Fourth video of recomended videos</h3>
+                                <p class="greyText">Generic channel</p>
+                                <p class="recomended-videos-views greyText">400 views</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img class="videos" src="images/img5.jpeg" alt="Suggested_Video_5">
+                            <div class="recomendationText">
+                                <h3 class="new-videos-title">Fifth video of recomended videos</h3>
+                                <p class="greyText">Generic channel</p>
+                                <p class="recomended-videos-views greyText">500 views</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img class="videos" src="images/img6.jpeg" alt="Suggested_Video_6">
+                            <div class="recomendationText">
+                                <h3 class="new-videos-title">Sixth video of recomended videos</h3>
+                                <p class="greyText">Generic channel</p>
+                                <p class="recomended-videos-views greyText">600 views</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img class="videos" src="images/img7.jpeg" alt="Suggested_Video_7">
+                            <div class="recomendationText">
+                                <h3 class="new-videos-title">Seventh video of recomended videos</h3>
+                                <p class="greyText">Generic channel</p>
+                                <p class="recomended-videos-views greyText">700 views</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img class="videos" src="images/img8.jpeg" alt="Suggested_Video_8">
+                            <div class="recomendationText">
+                                <h3 class="new-videos-title">Eighth video of recomended videos</h3>
+                                <p class="greyText">Generic channel</p>
+                                <p class="recomended-videos-views greyText">800 views</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img class="videos" src="images/img9.jpeg" alt="Suggested_Video_9">
+                            <div class="recomendationText">
+                                <h3 class="new-videos-title">Nineth video of recomended videos</h3>
+                                <p class="greyText">Generic channel</p>
+                                <p class="recomended-videos-views greyText">900 views</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img class="videos" src="images/img10.jpeg" alt="Suggested_Video_10">
+                            <div class="recomendationText">
+                                <h3 class="new-videos-title">Tenth video of recomended videos</h3>
+                                <p class="greyText">Generic channel</p>
+                                <p class="recomended-videos-views greyText">1000 views</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img class="videos" src="images/img11.jpeg" alt="Suggested_Video_11">
+                            <div class="recomendationText">
+                                <h3 class="new-videos-title">Eleventh video of recomended videos</h3>
+                                <p class="greyText">Generic channel</p>
+                                <p class="recomended-videos-views greyText">100 views</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img class="videos" src="images/img12.jpeg" alt="Suggested_Video_12">
+                            <div class="recomendationText">
+                                <h3 class="new-videos-title">Tewelth video of recomended videos</h3>
+                                <p class="greyText">Generic channel</p>
+                                <p class="recomended-videos-views greyText">200 views</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img class="videos" src="images/img13.jpeg" alt="Suggested_Video_13">
+                            <div class="recomendationText">
+                                <h3 class="new-videos-title">Thirteenth video of recomended videos</h3>
+                                <p class="greyText">Generic channel</p>
+                                <p class="recomended-videos-views greyText">300 views</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img class="videos" src="images/img14.jpeg" alt="Suggested_Video_14">
+                            <div class="recomendationText">
+                                <h3 class="new-videos-title">Fourteenth video of recomended videos</h3>
+                                <p class="greyText">Generic channel</p>
+                                <p class="recomended-videos-views greyText">400 views</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img class="videos" src="images/img15.jpeg" alt="Suggested_Video_15">
+                            <div class="recomendationText">
+                                <h3 class="new-videos-title">Fifteenth video of recomended videos</h3>
+                                <p class="greyText">Generic channel</p>
+                                <p class="recomended-videos-views greyText">500 views</p>
+                            </div>
+                        </article>
+                        <button class="show-more">show more</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <div class="filters">
+                <img src="images/Youtube.png" width="70" alt="Youtube_logo"> &nbsp;
+                <button class="language" type="button" >Language: English</button> &nbsp;
+                <button class="location" type="button">Location: NetherLands</button> &nbsp;
+                <button class="restrictedMode" type="button">Restricted Mode: Off</button> &nbsp;
+                <button class="history" type="button">History</button>&nbsp;
+                <button class="help" type="button">Help</button> &nbsp;
+            </div>
+            <hr>
+            <div>
+                <ul  class="quickLinks">
+                    <li>About</li>
+                    <li>Press</li>
+                    <li>Copyright</li> 
+                    <li>Creators</li> 
+                    <li>Advertise</li>
+                    <li>Developers</li>
+                </ul>
+                <ul class="quickLinks">
+                    <li>Terms</li>
+                    <li> Privacy</li>
+                    <li>Policy & Safety</li>
+                    <li>Test new features</li>
+                </ul>
+            </div>
+        </footer> 
+    </body>
+</html>
