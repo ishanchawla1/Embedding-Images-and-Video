@@ -188,3 +188,11 @@ article{
     flex-wrap: nowrap;
     clear: left;
 }
+
+.commentText{
+    margin: 0px;
+}
+ul.quickLinks li {
+    display: inline;
+    margin-right: 10px;
+}
